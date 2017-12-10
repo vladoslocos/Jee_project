@@ -8,7 +8,7 @@
 <title>Connexion</title>
 </head>
 <body>
-
+	<h1 style="color:red">Welcome to the E-Library</h1>
 	<div class="log_in">
 		<h2>Log In</h2>
 		<form action="ControllerServlet" method="POST">
@@ -21,6 +21,8 @@
 	<div class="register">
 		<h2>Register</h2>
 		<form action="ControllerServlet" method="POST">
+			First Name : <input type="text" name="FirstName"/>
+			Last Name : <input type="text" name="LastName"/>
 			Login: <input type="text" name="login" /> Password: <input
 				type="password" name="password" /><input type="submit"
 				value="Connect" />
